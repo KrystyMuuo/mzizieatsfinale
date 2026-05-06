@@ -20,7 +20,7 @@ const Navbar = () => {
                         <div className="navbar-nav">
                             <Link to="/" className="nav-link text-light">Home</Link>
                             <Link to="/addproduct" className="nav-link text-light">Add Product</Link>
-                            <Link to="/cart" className="nav-link text-light">🛒 My Cart</Link>
+                            <Link to="/cart" className="nav-link text-light"> My Cart 🛒</Link>
                         </div>
                         <div className="navbar-nav">
                             {!isAuthenticated ? (
